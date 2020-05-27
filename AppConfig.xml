@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Variables>
+ 
+ 
+  <DriverPath id="1">
+    <Chrome>C:\Automation\Drivers\ChromeDriverWin32_V80</Chrome>
+    <Firefox>C:\Automation\Drivers\geckodriver-v0.26.0-win64</Firefox>
+    <IE>C:\Automation\Drivers\IEDriverServer_x64_3.150.1</IE>
+
+  </DriverPath>
+  <TestData >
+    <TestCaseFilePath>C:\Automation\TestCases\TestCase_GoodReads.xlsx</TestCaseFilePath>
+    <ExcelProvider>Provider=Microsoft.ACE.OLEDB.12.0;Data Source={0};Extended Properties='Excel 12.0;HDR=yes'</ExcelProvider>
+    <!-- Test cases are same for java and C# projects...-->
+
+  </TestData>
+
+ 
+  
+  
+</Variables>
